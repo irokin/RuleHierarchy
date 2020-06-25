@@ -2,7 +2,7 @@
 
 ## Overview
 <p align="center">
-    <img src="https://www.dropbox.com/s/14zqhcozpf0td2p/hier_screenshot.png?raw=1">
+    <img src="https://www.dropbox.com/s/2si02l0e6rr7vwo/hier.jpg?raw=1">
 </p>
 
 This repository contains the codebase and datasets as described in [paper](). We introduce the Rule Hierarchy Framework (RHF) that efficiently organizes the rules mined by walk-based (bottom-up) logical rule learners into a proper rule hierarchy. In this repository, we augment the [GPFL system](https://github.com/irokin/GPFL) with the adaptation of RHF and the extensions of two hierarchical pruning methods (HPMs) that utilize the generated rule hierarchy to prune irrelevant rules. The Figure above shows an incomplete rule hierarchy where rules are linked by subsumption relations.   
