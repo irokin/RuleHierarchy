@@ -5,7 +5,7 @@
     <img src="https://www.dropbox.com/s/2si02l0e6rr7vwo/hier.jpg?raw=1">
 </p>
 
-This repository contains the codebase and datasets as described in [paper](). We introduce the Rule Hierarchy Framework (RHF) that efficiently organizes the rules mined by walk-based (bottom-up) logical rule learners into a proper rule hierarchy. In this repository, we augment the [GPFL system](https://github.com/irokin/GPFL) with the adaptation of RHF and the extensions of two hierarchical pruning methods (HPMs) that utilize the generated rule hierarchy to prune irrelevant rules. The Figure above shows an incomplete rule hierarchy where rules are linked by subsumption relations.   
+This repository contains the [codebase](https://www.dropbox.com/s/uk6sqtmlz1h13e0/RuleHierarchy-master.zip?dl=1) and [datasets](https://www.dropbox.com/s/p5rseuzntkhos7f/data.zip?dl=1) as described in [paper](). We introduce the Rule Hierarchy Framework (RHF) that efficiently organizes the rules mined by walk-based (bottom-up) logical rule learners into a proper rule hierarchy. In this repository, we augment the [GPFL system](https://github.com/irokin/GPFL) with the adaptation of RHF and the extensions of two hierarchical pruning methods (HPMs) that utilize the generated rule hierarchy to prune irrelevant rules. The Figure above shows an incomplete rule hierarchy where rules are linked by subsumption relations.   
 
 ## Requirements
 - Java >= 1.8
@@ -30,7 +30,7 @@ To turn on/off the prior and post pruning and tune the prior threshold, please c
 For details about other settings, please refer to [GPFL Codebase](https://github.com/irokin/GPFL).
 
 ## Reproduce Experiment Results
-Please download the datasets from [here](https://www.dropbox.com/s/p5rseuzntkhos7f/data.zip?dl=1), and unzip the compressed files into the `data` folder. We recommend running the experiments with at least 8 CPU cores and 64GB RAM for completion in reasonable time.
+Please download the datasets and unzip the compressed files into the `data` folder. We recommend running the experiments with at least 8 CPU cores and 64GB RAM for completion in reasonable time.
 
 Over datasets `{FB15K-237-LV, WN18RR-LV, NELL995-LV, OpenBioLink}`, one can evaluate the effectiveness of the prior and post pruning by tuning `prior_th` and `use_post_prune` and keep all other settings unchanged in their individual configuration file, and run:
 ```shell script
